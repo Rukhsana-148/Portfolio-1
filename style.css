@@ -1,0 +1,170 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width : 1368px;
+   
+}
+.top {
+    height : 60px;
+    background-color: black;
+    padding-top: 10px;
+    position : fixed;
+    z-index: 99;
+    width : 1338px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left : 10px;
+    padding-right: 10px;
+}
+.top a{
+    color : white;
+    font-size : 17px;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: white;
+    margin-left : 10px;
+    padding-right: 10px;
+}
+nav ul li:hover a{
+    color: black;
+
+}
+.image{
+    z-index : -1;
+}
+.image img{
+    height : 90vh;
+    width : 100%;
+}
+.teams{
+    padding-top: 90px;
+}
+.teams .row{
+    justify-content: center;
+    text-align: center;
+}
+.teams img{
+    width : 180px;
+    height : 180px;
+    border-radius: 50%;
+}
+.teams .row{
+    padding-top: 20px;
+}
+.teams h5{
+    font-weight : 400;
+}
+.work{
+    padding-top: 60px;
+    background-color: black;
+    color : white;
+}
+.work .row{
+    padding-top : 40px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+}
+ul li{
+    list-style: none;
+}
+.work .card .card-body img{
+    width : 100%;
+}
+.work .card .card-body{
+    color : black;
+}
+.price{
+    margin-top: 30px;
+}
+.price h4{
+    padding-top: 90px;
+}
+.price .row{
+    justify-content: center;
+    text-align: center;
+}
+.price .card .card-header{
+    background-color: black;
+    color : white;
+    font-weight : 400;
+}
+.price .card .card-body span{
+    font-weight: bolder;
+}
+.price .card .pro{
+    background-color: gray;
+   
+}
+.contact{
+    padding-top: 50px;
+}
+.contact h4{
+    padding-top: 60px;
+}
+.contact i{
+    padding-right: 5px;
+    padding-bottom: 14px;
+}
+.contact form{
+    width : 500px;
+    height : 310px;
+    border : 3px solid rgb(214, 204, 204);
+    box-shadow: 1px 4px 2px grey;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.contact form input{
+    margin-top: 10px;
+    padding-left: 5px;
+    width : 400px;
+    border : none;
+    border-bottom : 1px solid rgb(134, 124, 124);
+}
+.contact form .send{
+    width : 90px;
+    height : 40px;
+    background-color: black;
+    color : rgb(102, 82, 82);
+}
+.map{
+    margin-top : 60px;
+}
+.map img{
+    width : 100%;
+    height : 70vh;
+}
+.follow{
+
+    
+    width : 100%;
+    height : 200px;
+    background-color: black;
+    color : white;
+}
+.follow h4{
+    text-align: center;
+}
+.follow .row{
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.follow .row i{
+    font-size: 27px;
+}
+.bottom .row
+{
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: rgb(94, 84, 84);
+}
